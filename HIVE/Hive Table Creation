@@ -36,7 +36,7 @@ string, soc_name string, job_title string, full_time_position
 string,prevailing_wage bigint,year string, worksite string, longitute
 double, latitute double )
 row format delimited
-fields terminated by '\t'
+fields terminated by '\t' 
 STORED AS TEXTFILE;
 
 INSERT OVERWRITE TABLE h1b_final SELECT s_no,
