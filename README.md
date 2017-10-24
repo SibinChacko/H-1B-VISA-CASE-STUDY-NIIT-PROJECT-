@@ -6,15 +6,15 @@ ________________________________________________________________________________
 ### We have to perform the followings queries on the given dataset of H-1B VISA for the year 2011-2016 :-
   
 1 a) Is the number of petitions with Data Engineer job title increasing over time?
-   b) Find top 5 job titles who are having highest average growth in applications.[ALL]
+   b) Find top 5 job titles who are having highest average growth in applications.[All Case-Status]
 
 2 a) Which part of the US has the most Data Engineer jobs for each year?
-   b) Find top 5 locations in the US who have got certified visa for each year.[Certified]
+   b) Find top 5 locations in the US who have got certified visa for each year.[Certified Case-Status] 
 
 3)   Which Industry(SOC_NAME) has the most number of Data Scientist positions?
-      [Certified]
+      [Certified Case-Status]
 
-4)   Which top 5 employers file the most petitions each year? - Case Status - ALL
+4)   Which top 5 employers file the most petitions each year?[ALL Case-Status]
 
 5)   Find the most popular top 10 job positions for H1B visa applications for each year?
 a)   For all the applications
@@ -22,7 +22,7 @@ b)   For only certified applications.
 
 6)   Find the percentage and the count of each case status on total applications for each year. Create     a line graph depicting the pattern of All the cases over the period of time.
 
-7)   Create a bar graph to depict the number of applications for each year [All]
+7)   Create a bar graph to depict the number of applications for each year [All Case-Status]
 
 8)  Find the average Prevailing Wage for each Job for each Year (take part time and full time    separate). Arrange the output in descending order - [Certified and Certified Withdrawn.]
 
@@ -38,15 +38,15 @@ ________________________________________________________________________________
 The dataset has nearly 3 million records. The dataset description is as follows: The columns in the dataset include:
 
 **CASE_STATUS**: Status associated with the last significant event or decision.
-Valid values include "**Certified","Certified-Withdrawn","Denied**"and"**Withdrawn**".
+Valid values include "**Certified", "Certified-Withdrawn", "Denied**" and "**Withdrawn**".
 
-**Certified**          : Employer filed the LCA, which was approved by DOL. 
+**1)Certified**          : Employer filed the LCA, which was approved by DOL. 
 
-**Certified Withdrawn**: LCA was approved but later withdrawn by employer.
+**2)Certified Withdrawn**: LCA was approved but later withdrawn by employer.
 
-**Withdrawn**          : LCA was withdrawn by employer before.
+**3)Withdrawn**          : LCA was withdrawn by employer before.
 
-**Denied**             : LCA was denied by DOL.
+**4)Denied**             : LCA was denied by DOL.
 
 **EMPLOYER_NAME**: Name of employer submitting labour condition application.
 
@@ -75,9 +75,8 @@ In the data, few columns are enclosed by double quotes and also we have comma’
 **Pig**- any 4 programs.
 
 **Case Status**
-
 1.Certified.
 2.Certified-Withdrawn.
 3.Denied.
 4.Withdrawn.
-
+_______________________________________________________________________________________________________________________________
