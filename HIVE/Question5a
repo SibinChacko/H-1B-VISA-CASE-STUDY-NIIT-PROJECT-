@@ -1,4 +1,4 @@
---> Ques 5(a) Find the most popular top 10 job positions for H1B visa applications for each year for all the applications.
+--> Ques 5(a) Find the most popular top 10 job positions for H1B visa applications for each year for all the applications. 
 ---------------------------------------------------------------------------------------------------------------------------
 select job_title,count(job_title) as temp,year from h1b_final where year = 2011 group by job_title,year order by temp desc limit 10; 
 select job_title,count(job_title) as temp,year from h1b_final where year = 2012 group by job_title,year order by temp desc limit 10; 
