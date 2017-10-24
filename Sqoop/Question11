@@ -1,0 +1,5 @@
+--> Ques 11) Export result for question no 10 to MySql database.
+-----------------------------------------------------------------
+sqoop export --connect jdbc:mysql://localhost/project --username root --password 'hduser' --table h1bfinal2 --update-mode allowinsert --update-key job_title --export-dir /ProjectPrestn/Query10Op/p* --input-fields-terminated-by '\t'
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
