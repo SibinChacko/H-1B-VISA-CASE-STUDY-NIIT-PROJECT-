@@ -1,9 +1,10 @@
-# H-1B-VISA-CASE-STUDY-NIIT-PROJECT 
+# H-1B-VISA-CASE-STUDY
+## (NIIT-PROJECT)
 ------------------------------------
 The H-1B Visa is an employment-based, non-immigrant Visa category for temporary foreign workers in the United States. For a foreign national to apply for H-1B visa, an US employer must offer a job and petition for H-1B visa with the US immigration department. This is the most common visa status applied for and held by international students once they complete college/ higher education (Masters, Ph.D.) and work in a full-time position. In this report, we attempt to predict the status of the visa petition based on the visa-application metadata. The intent of this study is to discover how visa status outcome is inﬂuenced by attributes of user application. The classiﬁer designed in this report could be utilized by both, H-1B aspirants and employers, to gauge the likelihood of visa certiﬁcation, before and after ﬁling the petition.
 
-# We have to perform the followings queries on the given dataset of H-1B VISA for the year 2011-2016 :-
----------------------------------------------------------------------------------------------------
+### We have to perform the followings queries on the given dataset of H-1B VISA for the year 2011-2016 :-
+    ---------------------------------------------------------------------------------------------------
 1 a) Is the number of petitions with Data Engineer job title increasing over time?
    b) Find top 5 job titles who are having highest average growth in applications.[ALL]
 
@@ -32,10 +33,10 @@ b)   For only certified applications.
 11)  Export result for question no 10 to MySql database.
 _________________________________________________________________________________________________________________________________
 
-# [SUCCESS RATE % = (Certified + Certified Withdrawn)/Total x 100]
+### [SUCCESS RATE % = (Certified + Certified Withdrawn)/Total x 100]
 
 The dataset has nearly 3 million records. The dataset description is as follows: The columns in the dataset include:
-# CASE_STATUS: 
+### CASE_STATUS: 
 Status associated with the last significant event or decision.
 Valid values include "**Certified","Certified-Withdrawn","Denied**"and"**Withdrawn**".
 **Certified**          : Employer filed the LCA, which was approved by DOL
